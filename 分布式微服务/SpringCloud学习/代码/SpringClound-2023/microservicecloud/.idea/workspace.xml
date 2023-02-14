@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27ef6f89-d451-491d-99cc-ba285ec5eb19" name="Default Changelist" comment="1、子模块的创建">
-      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/zyz/springcloud/DeptConsumer80_App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/zyz/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/zyz/springcloud/controller/DeptController_Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java/com/zyz/springcloud/EurekaServer7001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Java基础知识/01 Java语言概述/代码/Demo-1/src/com/zyz/HelloWorld.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Java基础知识/01 Java语言概述/笔记/Java语言概述.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Java基础知识/01 Java语言概述/资料/jdk api 1.8.CHM" beforeDir="false" />
@@ -55,11 +53,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java学习资料(后端)\github管理后端学习资料\后端学习\分布式微服务\SpringCloud学习\代码\SpringClound-2023\microservicecloud\microservicecloud-eureka-7001\src\main\resources" />
       <recent name="F:\java学习资料(后端)\github管理后端学习资料\后端学习\分布式微服务\SpringCloud学习\代码\SpringClound-2023\microservicecloud\microservicecloud-consumer-dept-80\src\main\resources" />
       <recent name="F:\java学习资料(后端)\github管理后端学习资料\后端学习\分布式微服务\SpringCloud学习\代码\SpringClound-2023\microservicecloud\microservicecloud-provider-dept-8001\src\main\java\com\zyz\springcloud" />
       <recent name="F:\java学习资料(后端)\github管理后端学习资料\后端学习\分布式微服务\SpringCloud学习\代码\SpringClound-2023\microservicecloud\microservicecloud-provider-dept-8001\src\main\resources" />
@@ -69,7 +68,18 @@
       <recent name="com.zyz.springcloud.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptProvider8001_App">
+  <component name="RunManager" selected="Spring Boot.EurekaServer7001_App">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeptConsumer80_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer-dept-80" />
       <extension name="coverage">
@@ -96,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyz.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyz.springcloud.EurekaServer7001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaServer7001_App" />
         <item itemvalue="Spring Boot.DeptProvider8001_App" />
         <item itemvalue="Spring Boot.DeptConsumer80_App" />
       </list>
@@ -116,7 +140,7 @@
       <workItem from="1675780795536" duration="1577000" />
       <workItem from="1675916671320" duration="2863000" />
       <workItem from="1676193797679" duration="2758000" />
-      <workItem from="1676381428975" duration="332000" />
+      <workItem from="1676381428975" duration="3332000" />
     </task>
     <task id="LOCAL-00001" summary="1、子模块的创建">
       <created>1675697533504</created>
