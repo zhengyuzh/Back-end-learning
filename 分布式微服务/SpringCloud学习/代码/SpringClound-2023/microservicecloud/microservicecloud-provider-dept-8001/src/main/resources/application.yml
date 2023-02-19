@@ -9,7 +9,7 @@ mybatis:
     
 spring:
    application:
-    name: microservicecloud-dept 
+    name: microservicecloud-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -28,7 +28,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: microservicecloud-dept8001
+    instance-id: microservicecloud-dept8001EEE
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
