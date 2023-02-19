@@ -47,10 +47,14 @@ public class MyClient {
     //连接状态
     private boolean running = false;
 
-    //最后一次发送数据的时间
+    /**
+     * 最后一次发送数据的时间
+     */
     private long lastSendTime;
 
-    //用于保存接收消息对象类型及该类型消息处理的对象
+    /**
+     * 用于保存接收消息对象类型及该类型消息处理的对象
+     */
     private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<Class, ObjectAction>();
 
     public MyClient(String serverIp, int port) {
@@ -66,6 +70,7 @@ public class MyClient {
         System.out.println("本地端口：" + socket.getLocalPort());
         lastSendTime = System.currentTimeMillis();
         running = true;
+
         //保持长连接的线程，每隔2秒项服务器发一个一个保持连接的心跳消息
         new Thread(new KeepAliveWatchDog()).start();
         //接受消息的线程，处理消息
@@ -96,8 +101,11 @@ public class MyClient {
         oos.flush();
     }
 
+
+
     class KeepAliveWatchDog implements Runnable {
         long checkDelay = 10;
+        //两秒钟检测一次
         long keepAliveDelay = 2000;
 
         @Override
@@ -146,6 +154,7 @@ public class MyClient {
             }
         }
     }
+
 
     public static void main(String[] args) throws UnknownHostException, IOException {
         String serverIp = "127.0.0.1";

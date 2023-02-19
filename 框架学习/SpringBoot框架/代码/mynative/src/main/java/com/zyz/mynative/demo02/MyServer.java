@@ -38,6 +38,10 @@ public class MyServer {
     private int port;
     private volatile boolean running = false;
     private long receiveTimeDelay = 3000;
+    /**
+     * ConcurrentHashMap是线程安全的，ConcurrentHashMap并非锁住整个方法，
+     * 而是通过原子操作和局部加锁的方法保证了多线程的线程安全，且尽可能减少了性能损耗。
+     */
     private ConcurrentHashMap<Class, ObjectAction> actionMapping = new ConcurrentHashMap<Class, ObjectAction>();
     private Thread connWatchDog;
 
@@ -45,6 +49,9 @@ public class MyServer {
         this.port = port;
     }
 
+    /**
+     * 通过继承Runnable ,开启线程
+     */
     public void start() {
         if (running) {
             return;
@@ -71,6 +78,9 @@ public class MyServer {
         actionMapping.put(cls, action);
     }
 
+    /**
+     * 继承Runnable 重写run方法、实现线程
+     */
     class ConnWatchDog implements Runnable {
         @Override
         public void run() {
@@ -88,6 +98,9 @@ public class MyServer {
         }
     }
 
+    /**
+     * 继承Runnable 重写run方法、实现线程，通过匿名内部类
+     */
     class SocketAction implements Runnable {
         Socket s;
         boolean run = true;
