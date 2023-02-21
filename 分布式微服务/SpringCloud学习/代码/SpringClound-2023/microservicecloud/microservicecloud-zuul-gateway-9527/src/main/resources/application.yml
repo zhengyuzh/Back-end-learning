@@ -14,13 +14,13 @@ eureka:
     prefer-ip-address: true 
  
  
-#zuul:
+zuul:
 #  ignored-services: microservicecloud-dept
-#  prefix: /atguigu
-##  ignored-services: "*"
-#  routes:
-#    mydept.serviceId: microservicecloud-dept
-#    mydept.path: /mydept/**
+  prefix: /zyz
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
  
 info:
   app.name: atguigu-microcloud
