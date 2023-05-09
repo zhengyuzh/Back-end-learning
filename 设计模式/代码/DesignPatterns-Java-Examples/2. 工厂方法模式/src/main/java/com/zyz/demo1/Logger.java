@@ -19,6 +19,7 @@ interface Logger {
 }
 
 
+
 /**
  * 数据库日志记录器：具体产品
  */
@@ -27,6 +28,7 @@ class DatabaseLogger implements Logger{
     public void writeLog() {
         System.out.println("数据库日志记录。");
     }
+
 }
 
 /**
@@ -64,16 +66,5 @@ class DatabaseLoggerFactory implements LoggerFactory{
     }
 }
 
-/**
- * 文件日志记录器工厂类：具体工厂
- */
-class FileLoggerFactory implements LoggerFactory{
-    @Override
-    public Logger createLogger() {
-        //创建文件日志记录器对象
-        Logger logger = new FileLogger();
-        //创建文件，代码省略
-        return logger;
-    }
-}
+
 
