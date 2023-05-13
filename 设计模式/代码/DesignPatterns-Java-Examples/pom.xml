@@ -15,6 +15,7 @@
         <module>4. 建造者模式</module>
         <module>5. 单例模式</module>
         <module>6. 适配器模式</module>
+        <module>7. 桥接模式</module>
     </modules>
 
     <properties>
