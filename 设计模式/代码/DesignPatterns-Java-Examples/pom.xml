@@ -18,6 +18,7 @@
         <module>7. 桥接模式</module>
         <module>8. 装饰模式</module>
         <module>9. 外观模式</module>
+        <module>10. 享元模式</module>
     </modules>
 
     <properties>
