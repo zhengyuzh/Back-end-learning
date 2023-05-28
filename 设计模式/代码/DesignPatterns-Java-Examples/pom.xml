@@ -22,6 +22,7 @@
         <module>11. 代理模式</module>
         <module>12.命令模式</module>
         <module>13. 中介者模式</module>
+        <module>14. 观察者模式</module>
     </modules>
 
     <properties>
