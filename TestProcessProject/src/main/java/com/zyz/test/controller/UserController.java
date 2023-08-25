@@ -1,7 +1,9 @@
 package com.zyz.test.controller;
 
+import com.zyz.test.config.response.Result;
 import com.zyz.test.pojo.User;
 import com.zyz.test.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,18 +18,24 @@ import java.util.List;
  * @data 2023/8/25 11:44
  * @Description:
  */
-@Controller
+@Slf4j
+@RestController
 @RequestMapping("/system/user")
 public class UserController {
+
 
     @Autowired
     UserService userService;
 
 
     @RequestMapping(value = "/query", method = RequestMethod.GET)
-    public List<User> queryUser(User user){
+    public Result queryUser(User user){
+        log.info("Enter queryUser Method...");
         List<User> userList = userService.queryUser(user);
-        return userList;
+        if(userList != null){
+            return Result.ok().data("userList",userList);
+        }
+        return Result.error();
 
 
     }
