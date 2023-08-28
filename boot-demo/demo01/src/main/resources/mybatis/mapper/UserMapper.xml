@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyz.boot.web.mapper.UserMapper">
+    <resultMap type="User" id="UserResult">
+        <id property="userId" column="user_id"/>
+        <result property="loginName" column="login_name"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="password"/>
+        <result property="salt" column="salt"/>
+        <result property="email" column="email"/>
+        <result property="phonenumber" column="phonenumber"/>
+        <result property="avatar" column="avatar"/>
+  </resultMap>
+
+    <sql id="selectUserVo">
+        select user_id, login_name, user_name, password, salt,email,phonenumber,avatar from tb_user
+    </sql>
+
+    <select id="queryUser" parameterType="User" resultMap="UserResult">
+        <include refid="selectUserVo"/>
+        <where>
+            <if test="userName != null  and userName != ''"> and user_name = #{userName}</if>
+            <if test="email != null  and email != ''"> and email = #{email}</if>
+            <if test="phonenumber != null  and phonenumber != ''"> and phonenumber = #{phonenumber}</if>
+        </where>
+    </select>
+
+
+
+
+</mapper>

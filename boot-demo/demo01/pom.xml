@@ -13,6 +13,11 @@
         <relativePath/>
     </parent>
 
+    <properties>
+        <mybatis.spring.boot.starter.version>2.1.4</mybatis.spring.boot.starter.version><!-- mysql版本 -->
+        <druid.version>1.2.6</druid.version> <!-- 数据库连接池 -->
+    </properties>
+
 
     <dependencies>
         <dependency>
@@ -36,6 +41,35 @@
             <artifactId>nekohtml</artifactId>
             <version>1.9.22</version>
         </dependency>
+
+
+        <!-- Mysql驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- SpringBoot集成mybatis框架 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.spring.boot.starter.version}</version>
+        </dependency>
+
+        <!-- 阿里数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- Lombox-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
 
     </dependencies>
 
