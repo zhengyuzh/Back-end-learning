@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<style>
+th,tr,td{
+    border: 1px solid black;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+<body>
+
+<!--// 在View视图中使用th:each循环列表-->
+<table>
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>姓名</th>
+        <th>邮箱</th>
+        <th>手机号</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user,row: ${userList}">
+        <td th:text="${row.index + 1}"></td>
+        <td><span th:text="${user.userName}"/></td>
+        <td><span th:text="${user.email}" /></td>
+        <td><span th:text="${user.phonenumber}" /></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

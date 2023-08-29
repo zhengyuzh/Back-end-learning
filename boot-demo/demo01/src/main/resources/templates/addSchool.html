@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- 在View视图的HTML表单中使用th:object将User对象绑定到表单中-->
+<form th:object="${school}" action="/system/user/save" method="post">
+    <label>学校名称：</label>
+    <input type="text" th:field="*{name}" />
+    <label>学校地址：</label>
+    <input type="text" th:field="*{address}" />
+    <button type="submit">提交</button>
+</form>
+
+</body>
+</html>
