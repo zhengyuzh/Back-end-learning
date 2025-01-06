@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4937ba67-1e13-4a99-a845-b9f6a545300f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/controller/Cmder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/controller/HeartbeatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/controller/RPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo01/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo01/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo03/CallableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo03/ExtendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo03/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo03/RunnableImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo03/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/entities/HeartbeatEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/service/HeartbeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/service/HeartbeatLinstener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/service/ServiceCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/service/serviceImol/HeartbeatHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo01/StaticProxy/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo01/StaticProxy/PersonProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo01/StaticProxy/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo01/StaticProxy/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo02/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo02/MyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo02/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/main/java/com/zyz/mynative/demo02/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/test/java/com/zyz/mynative/MynativeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../框架学习/SpringBoot框架/代码/mynative/src/test/java/com/zyz/mynative/MynativeApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\work\maven\apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\work\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LlHT0ffQKzI139dPsjUbIZ4R7s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/workspace/招商银行POC项目/招商银行信创CRS/Trunk/Src/Native" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxy.Test" />
+      <module name="Demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticProxy.Test" />
+      <module name="Demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4937ba67-1e13-4a99-a845-b9f6a545300f" name="Default Changelist" comment="" />
+      <created>1676438754542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676438754542</updated>
+      <workItem from="1676438755811" duration="2053000" />
+      <workItem from="1676472194575" duration="798000" />
+      <workItem from="1676506931334" duration="964000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
